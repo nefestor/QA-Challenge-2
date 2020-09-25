@@ -5,7 +5,7 @@ Test Setup                          Nova sessão
 Test Teardown                       Encerra sessão
 
 *** Test Cases ***
-Login on TeamShift
+Successfully logging in with username and password
     Enter on login page
     Insert email                    nefestor@outlook.com
     Insert password                 WLS2020qa
