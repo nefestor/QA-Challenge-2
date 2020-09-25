@@ -1,0 +1,28 @@
+1. Verificar se ao ir em 'Meu Resultado' sou redirecionado para o meu perfil
+Given que estou na página TeamShift
+And estou logado
+And completo o 'Teste de Personalidade'
+When clico na aba 'Meu Resultado'
+Then meu perfil deve ser apresentado.
+
+2. Verificar se ao ir em 'Tipos de Personalidade' visualizo a página com as descrições das personalidades
+Given que estou na página TeamShift
+And estou logado
+When passo o ponteiro encima de 'Aprender'
+And clico em 'Tipos de Personalidade'
+Then sou redirecionado para a página que contém os tipos de personalidades
+
+3. Verificar se ao ir em 'Minhas Configurações' visualizo as configurações da minha conta
+Given que estou na página TeamShift
+And estou logado
+And passo o ponteiro encima do meu nome
+When clico no botão 'Minhas Configurações'
+Then sou redirecionado para a página das minhas configurações
+
+4. Verificar se ao inserir email e senha válida eu faço o login com sucesso
+Given que estou na página TeamShift
+And clico no botão 'Entrar'
+When insiro meu e-mail
+And insiro minha senha
+And clico no botão 'Login'
+Then sou redirecionado para a página inicial do meu perfil.
