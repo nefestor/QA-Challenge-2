@@ -10,7 +10,7 @@ def loginTest():
     Enter_on_login_page(URL)
     Insert_email('nefestor@outlook.com')
     Insert_Password('WLS2020qa')
-
+    driver.close()
 
 def Enter_on_login_page(url):
     driver.get(URL)
