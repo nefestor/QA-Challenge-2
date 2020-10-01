@@ -1,15 +1,18 @@
  ## TeamShift Challenge
 
-### Test running
+### Test running on Robot Framework
 
 *Content length exceeded 5mb - GitHub doesn't show the gif on README.md*
 
 ![Test running](http://g.recordit.co/wQBVMTkwBt.gif)
 
+### Test running on Python
+
+![Test running](http://g.recordit.co/70Wv85xFLG.gif)
+
 ### Report of test
 
 ![Report](http://g.recordit.co/kEbBpUcS5o.gif)
-
 
 ### Manual Scenarios
 
