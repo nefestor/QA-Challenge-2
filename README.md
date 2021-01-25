@@ -1,4 +1,4 @@
- ## TeamShift Challenge
+ ## QA Challenge - 2
 
 ### Test running on Robot Framework
 
